@@ -57,7 +57,7 @@ body {
 }
 
 .square {
-  background: #fff;
+  background: lightgrey;
   border: 1px solid #999;
   float: left;
   font-size: 80px;
@@ -69,6 +69,11 @@ body {
   padding: 0;
   text-align: center;
   width: 150px;
+  
+}
+
+.square:active {
+  background:darkgray;
 }
 
 .board-row:after {
